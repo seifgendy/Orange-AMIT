@@ -127,3 +127,4 @@ echo -e "${GREEN}✅ Scheduled notification at ${BLUE}$hour:$min on $month/$day/
 
 #chmod +x To_list.sh
 #./To_list.sh
+#./task.sh
