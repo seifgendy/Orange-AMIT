@@ -113,7 +113,7 @@ class Ui_MainWindow(object):
         """)  # Set gradient background
         self.image_label.setAlignment(QtCore.Qt.AlignCenter)
         # Scale the image to the full size of the label while keeping the aspect ratio
-        self.image_label.setPixmap(QtGui.QPixmap("symbolic.png").scaled(self.image_label.size(), QtCore.Qt.KeepAspectRatio, QtCore.Qt.SmoothTransformation))
+        self.image_label.setPixmap(QtGui.QPixmap("car.png").scaled(self.image_label.size(), QtCore.Qt.KeepAspectRatio, QtCore.Qt.SmoothTransformation))
 
         MainWindow.setCentralWidget(self.centralwidget)
 
